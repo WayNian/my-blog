@@ -4,7 +4,14 @@
   </div>
 </template>
 
-<style>
+<script>
+export default {
+  mounted() {
+    document.body.id = 'light'
+  }
+}
+</script>
+<style lang="scss">
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -16,7 +23,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   height: 200vh;
-  background-color: #cccccc;
+  background-color: var(--app-background-color);
 }
 
 *,
@@ -26,6 +33,9 @@ html {
   margin: 0;
 }
 
+body {
+  background-color: var(--app-background-color);
+}
 .button--green {
   display: inline-block;
   border-radius: 4px;

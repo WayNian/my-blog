@@ -1,0 +1,394 @@
+.markdown-body {
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+    padding: 1rem 0;
+  
+    /*code*/
+    // pre {
+      // position: relative;
+      // background: #21252b;
+      // border-radius: 5px;
+      // font: 14px Menlo, Monaco, Consolas, Courier New, monospace;
+      // ;
+      // line-height: 1.6;
+      // margin-bottom: 1.6em;
+      // max-width: 100%;
+      // overflow-x: auto;
+      // overflow-y: hidden;
+      // text-shadow: none;
+      // color: #000;
+      // padding-top: 30px;
+      // box-shadow: 0 10px 30px 0px rgba(0, 0, 0, .4);
+  
+      // code {
+      //   color: #c0c5ce;
+      // }
+  
+      // .lang- {
+      //   display: inline-block;
+      //   padding: .5rem;
+      //   background: #282c34;
+      //   width: 100%;
+      //   border-radius: 5px;
+      // }
+  
+      // .hljs-comment,
+      // .hljs-quote {
+      //   color: #b6b18b;
+      // }
+  
+      /* Darth Vader */
+      // .hljs-variable,
+      // .hljs-template-variable,
+      // .hljs-tag,
+      // .hljs-name,
+      // .hljs-selector-id,
+      // .hljs-selector-class,
+      // .hljs-regexp,
+      // .hljs-deletion {
+      //   color: #eb3c54;
+      // }
+  
+      /* Threepio */
+      // .hljs-number,
+      // .hljs-built_in,
+      // .hljs-builtin-name,
+      // .hljs-literal,
+      // .hljs-type,
+      // .hljs-params,
+      // .hljs-meta,
+      // .hljs-link {
+      //   color: #e7ce56;
+      // }
+  
+      // .hljs-attr {
+      //   color: #d19a66;
+      // }
+  
+      /* Luke Skywalker */
+      // .hljs-attribute {
+      //   color: #ee7c2b;
+      // }
+  
+      /* Obi Wan Kenobi */
+      // .hljs-string,
+      // .hljs-symbol,
+      // .hljs-bullet,
+      // .hljs-addition {
+      //   color: #4fb4d7;
+      // }
+  
+      /* Yoda */
+      // .hljs-title,
+      // .hljs-section {
+      //   color: #78bb65;
+      // }
+  
+      /* Mace Windu */
+      // .hljs-keyword,
+      // .hljs-selector-tag {
+      //   color: #b45ea4;
+      // }
+  
+      /* Millenium Falcon */
+    //   .hljs {
+    //     display: block;
+    //     overflow-x: auto;
+    //     background: #282c34;
+    //     color: #c0c5ce;
+    //     padding: 0.5em;
+    //     border-radius: 5px;
+    //   }
+  
+    //   .hljs-emphasis {
+    //     font-style: italic;
+    //   }
+  
+    //   .hljs-strong {
+    //     font-weight: bold;
+    //   }
+    // }
+  
+    // pre:before {
+    //   content: " ";
+    //   position: absolute;
+    //   -webkit-border-radius: 50%;
+    //   border-radius: 50%;
+    //   background: #fc625d;
+    //   width: 12px;
+    //   height: 12px;
+    //   left: 12px;
+    //   margin-top: -18px;
+    //   -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+    //   box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+    //   z-index: 2;
+    // }
+  
+    p code,
+    li>code {
+      background-color: #eee;
+      padding: 2px 8px;
+      color:red;
+      // color: $blue1;
+      border: 1px solid #e0e0e0;
+      border-radius: 3px;
+      line-height: 18px;
+      margin: 0px 3px;
+      margin-bottom: 2px;
+      display: inline-block;
+    }
+  
+    table tr {
+      background-color: #fff;
+      border-top: 1px solid #c6cbd1;
+    }
+  
+    table th,
+    table td {
+      padding: 6px 13px;
+      border: 1px solid #dfe2e5;
+      color: #333;
+    }
+  
+    ol {
+      padding-left: 20px;
+      margin-bottom: 10px;
+    }
+  
+    table tr:nth-child(2n) {
+      background-color: #f6f8fa;
+    }
+  
+    #articlesDetails {
+      overflow: inherit !important;
+      height: auto !important;
+      padding-bottom: 50px;
+    }
+  
+    .hljs-center {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .hljs-right {
+      width: 100%;
+      text-align: right
+    }
+  
+    hr {
+      border: inherit !important;
+      background-color: #d3dce6;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    blockquote {
+      background-color: #eff2f7;
+      padding: 10px;
+      border-left: 10px solid #d3dce6;
+      color: #d3dce6;
+      margin-bottom: 10px;
+    }
+  
+    h1 {
+      font-size: 22px;
+      font-weight: 900;
+      margin-bottom: 20px;
+      margin-top: 8px;
+      color: #333;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #c0c5ce;
+    }
+  
+    h2 {
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 28px;
+      margin-bottom: 10px;
+      color: #444;
+    }
+  
+    h3 {
+      font-size: 18px;
+      font-weight: 900;
+      line-height: 28px;
+      margin-bottom: 10px;
+      color: #444;
+    }
+  
+    h4 {
+      font-size: 17px;
+      font-weight: 900;
+      line-height: 28px;
+      margin-bottom: 10px;
+      color: #555;
+    }
+  
+    h5 {
+      font-size: 16px;
+      font-weight: 900;
+      line-height: 28px;
+      margin-bottom: 10px;
+      color: #666;
+    }
+  
+    h6 {
+      font-size: 15px;
+      font-weight: 900;
+      line-height: 28px;
+      margin-bottom: 10px;
+      color: #777;
+    }
+  
+    blockquote {
+      margin-top: 14px;
+      margin-bottom: 14px;
+    }
+  
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 8px;
+      color: rgb(36, 41, 46);
+    }
+  
+    strong {
+      color: #000000;
+    }
+  
+    a {
+      text-decoration: none;
+      color: #005196;
+    }
+  
+    em {
+      color: #666;
+    }
+  
+    pre {
+      margin-bottom: 15px;
+      box-shadow: 0px -1px rgba(0, 0, 0, 0.04);
+    }
+  
+    mark {
+      padding: 1px 2px;
+    }
+  
+    img {
+      width: auto;
+      max-width: 100%;
+      display: block;
+      margin: 6px auto;
+      cursor: pointer;
+    }
+  
+    blockquote * {
+      margin-bottom: 0px;
+    }
+  
+    ul {
+      padding-left: 28px;
+      margin-bottom: 14px;
+    }
+  
+    li {
+      list-style: initial !important;
+      font-size: 14px;
+      color: #24292e;
+    }
+  
+    // highlight.hljs-js 代码片段 样式
+  
+  pre {
+    background-color: #f8f8f8;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+    .hljs-function .hljs-keyword,
+    .hljs-constant {
+      color: #0092db;
+    }
+    .hljs-keyword,
+    .hljs-attribute {
+      color: #e96900;
+    }
+    .hljs-number,
+    .hljs-literal {
+      color: #AE81FF;
+    }
+    .hljs-tag,
+    .hljs-tag .hljs-title,
+    .hljs-change,
+    .hljs-winutils,
+    .hljs-flow,
+    .hljs-lisp .hljs-title,
+    .hljs-clojure .hljs-built_in,
+    .hljs-nginx .hljs-title,
+    .hljs-tex .hljs-special {
+      color: #2973b7;
+    }
+    .hljs-class .hljs-title {
+      color: green;
+    }
+    .hljs-symbol,
+    .hljs-symbol .hljs-string,
+    .hljs-value,
+    .hljs-regexp {
+      color: #42b983;
+    }
+    .hljs-title {
+      color: #A6E22E;
+    }
+    .hljs-tag .hljs-value,
+    .hljs-string,
+    .hljs-subst,
+    .hljs-haskell .hljs-type,
+    .hljs-preprocessor,
+    .hljs-ruby .hljs-class .hljs-parent,
+    .hljs-built_in,
+    .hljs-sql .hljs-aggregate,
+    .hljs-django .hljs-template_tag,
+    .hljs-django .hljs-variable,
+    .hljs-smalltalk .hljs-class,
+    .hljs-javadoc,
+    .hljs-django .hljs-filter .hljs-argument,
+    .hljs-smalltalk .hljs-localvars,
+    .hljs-smalltalk .hljs-array,
+    .hljs-attr_selector,
+    .hljs-pseudo,
+    .hljs-addition,
+    .hljs-stream,
+    .hljs-envvar,
+    .hljs-apache .hljs-tag,
+    .hljs-apache .hljs-cbracket,
+    .hljs-tex .hljs-command,
+    .hljs-prompt {
+      color: #42b983;
+    }
+    .hljs-comment,
+    .hljs-java .hljs-annotation,
+    .hljs-python .hljs-decorator,
+    .hljs-template_comment,
+    .hljs-pi,
+    .hljs-doctype,
+    .hljs-deletion,
+    .hljs-shebang,
+    .hljs-apache .hljs-sqbracket,
+    .hljs-tex .hljs-formula {
+      color: #b3b3b3;
+    }
+    .hljs-coffeescript .hljs-javascript,
+    .hljs-javascript .hljs-xml,
+    .hljs-tex .hljs-formula,
+    .hljs-xml .hljs-javascript,
+    .hljs-xml .hljs-vbscript,
+    .hljs-xml .hljs-css,
+    .hljs-xml .hljs-cdata {
+      opacity: .5;
+    }
+  }
+  
+  }
+  

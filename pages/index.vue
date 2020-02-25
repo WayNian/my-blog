@@ -9,16 +9,12 @@
         My extraordinary Nuxt.js project
       </h2>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
+        <button @click="setTheme('light')" class="button--grey">
           GitHub
-        </a>
+        </button>
+        <button @click="setTheme('dark')" class="button--grey">
+          GitHub
+        </button>
       </div>
     </div>
   </div>
@@ -30,11 +26,16 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  methods: {
+    setTheme(val) {
+      document.body.id = val
+    }
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -50,7 +51,7 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: $cc;
   letter-spacing: 1px;
 }
 
